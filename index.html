@@ -126,6 +126,21 @@
 
 <script>
   // Toon een link naar het form als het MailerLite-script niet laadt (bv. adblocker)
+  // Nederlandse placeholders en toestemmingstekst in het MailerLite-form
+  (function () {
+    var box = document.querySelector('.ml-embedded');
+    if (!box) return;
+    function nl() {
+      var n = box.querySelector('input[name="fields[name]"]');
+      var e = box.querySelector('input[name="fields[email]"]');
+      if (n) n.placeholder = 'Je voornaam';
+      if (e) e.placeholder = 'jij@voorbeeld.be';
+      box.querySelectorAll('.ml-form-embedPermissions p, .ml-form-embedPermissionsContent p').forEach(function (p) {
+        if (/By clicking/i.test(p.textContent)) p.innerHTML = 'Door hieronder op de knop te klikken, ga je ermee akkoord dat we je gegevens doorgeven aan MailerLite om je inschrijving te verwerken. <a href="https://www.mailerlite.com/legal/privacy-policy" target="_blank" rel="noopener">Meer info</a>';
+      });
+    }
+    new MutationObserver(nl).observe(box, { childList: true, subtree: true });
+  })();
   setTimeout(function () {
     var box = document.querySelector('.ml-embedded');
     if (box && !box.children.length) document.querySelector('.form-fallback[hidden]').hidden = false;

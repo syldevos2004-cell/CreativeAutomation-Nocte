@@ -78,46 +78,55 @@ h2{font-size:clamp(44px,7vw,104px);margin-bottom:.4em}
 
 /* ===== MailerLite embedded form in NOCTE-stijl =====
    MailerLite zet eigen stijlen met #mlb2-xxxx; daarom hoge specificiteit + !important. */
-#nightpass .ml-embedded,#nightpass .ml-embedded *{border-radius:0!important}
-#nightpass .ml-embedded .ml-form-embedContainer{width:100%!important;margin:0!important}
-#nightpass .ml-embedded .ml-form-align-center{text-align:left!important}
-#nightpass .ml-embedded .ml-form-embedWrapper{background:var(--nacht)!important;border:1px solid rgba(238,146,194,.3)!important;border-radius:0!important;max-width:none!important;width:100%!important;box-shadow:0 30px 80px -30px rgba(0,0,0,.6)!important}
-#nightpass .ml-embedded .ml-form-embedBody,
-#nightpass .ml-embedded .ml-form-successBody{padding:clamp(24px,4vw,44px)!important}
-#nightpass .ml-embedded *{font-family:var(--font)!important}
-#nightpass .ml-embedded h4,#nightpass .ml-embedded label,#nightpass .ml-embedded button{font-family:var(--title)!important}
-#nightpass .ml-embedded .ml-form-embedContent h4,
-#nightpass .ml-embedded .ml-form-successContent h4{color:var(--creme)!important;font-weight:800!important;font-stretch:75%;text-transform:uppercase;font-size:30px!important;line-height:1!important;letter-spacing:0!important;margin:0 0 10px!important;text-align:left!important}
-#nightpass .ml-embedded .ml-form-embedContent p,
-#nightpass .ml-embedded .ml-form-successContent p,
-#nightpass .ml-embedded .ml-form-embedPermissions p{color:var(--creme)!important;opacity:.8;font-size:16px!important;font-weight:400!important;line-height:1.5!important;text-align:left!important}
-#nightpass .ml-embedded .ml-form-successContent h4{color:var(--pink)!important}
-#nightpass .ml-embedded label,
-#nightpass .ml-embedded .ml-field-group>label{color:var(--creme)!important;font-size:12px!important;font-weight:600!important;letter-spacing:.2em!important;text-transform:uppercase!important;margin-bottom:6px!important}
-#nightpass .ml-embedded input.form-control,
-#nightpass .ml-embedded input[type=text],
-#nightpass .ml-embedded input[type=email]{background:transparent!important;color:var(--creme)!important;border:0!important;border-bottom:1px solid rgba(247,240,236,.4)!important;border-radius:0!important;padding:10px 0!important;font-size:19px!important;font-weight:400!important;height:auto!important;box-shadow:none!important}
-#nightpass .ml-embedded input.form-control::placeholder{color:rgba(247,240,236,.45)!important}
-#nightpass .ml-embedded input.form-control:focus{border-bottom-color:var(--pink)!important;outline:none!important}
-#nightpass .ml-embedded .ml-error input.form-control{border-bottom-color:#ff6b8b!important}
-#nightpass .ml-embedded .ml-form-fieldRow{margin-bottom:18px!important}
+#nightpass#nightpass#nightpass .ml-embedded,#nightpass#nightpass#nightpass .ml-embedded *{border-radius:0!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedContainer{width:100%!important;margin:0!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-align-center{text-align:left!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedWrapper{background:var(--nacht)!important;border:1px solid rgba(238,146,194,.3)!important;border-radius:0!important;max-width:none!important;width:100%!important;box-shadow:0 30px 80px -30px rgba(0,0,0,.6)!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedBody,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-successBody{padding:clamp(24px,4vw,44px)!important}
+#nightpass#nightpass#nightpass .ml-embedded *{font-family:var(--font)!important}
+#nightpass#nightpass#nightpass .ml-embedded h4,#nightpass#nightpass#nightpass .ml-embedded label,#nightpass#nightpass#nightpass .ml-embedded button{font-family:var(--title)!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedContent h4,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-successContent h4{color:var(--creme)!important;font-weight:800!important;font-stretch:75%;text-transform:uppercase;font-size:30px!important;line-height:1!important;letter-spacing:0!important;margin:0 0 10px!important;text-align:left!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedContent p,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-successContent p,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissions p{color:var(--creme)!important;opacity:.8;font-size:16px!important;font-weight:400!important;line-height:1.5!important;text-align:left!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-successContent h4{color:var(--pink)!important}
+#nightpass#nightpass#nightpass .ml-embedded label,
+#nightpass#nightpass#nightpass .ml-embedded .ml-field-group>label{color:var(--creme)!important;font-size:12px!important;font-weight:600!important;letter-spacing:.2em!important;text-transform:uppercase!important;margin-bottom:6px!important}
+#nightpass#nightpass#nightpass .ml-embedded input.form-control,
+#nightpass#nightpass#nightpass .ml-embedded input[type=text],
+#nightpass#nightpass#nightpass .ml-embedded input[type=email]{background:transparent!important;color:var(--creme)!important;border:0!important;border-bottom:1px solid rgba(247,240,236,.4)!important;border-radius:0!important;padding:10px 0!important;font-size:19px!important;font-weight:400!important;height:auto!important;box-shadow:none!important}
+#nightpass#nightpass#nightpass .ml-embedded input.form-control::placeholder{color:rgba(247,240,236,.45)!important}
+#nightpass#nightpass#nightpass .ml-embedded input.form-control:focus{border-bottom-color:var(--pink)!important;outline:none!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-error input.form-control{border-bottom-color:#ff6b8b!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-fieldRow{margin-bottom:18px!important}
 /* checkbox (opt-in) */
-#nightpass .ml-embedded .ml-form-checkboxRow label,
-#nightpass .ml-embedded .ml-form-embedPermissionsOptionsCheckbox label{text-transform:none!important;letter-spacing:0!important;font-weight:400!important;font-size:16px!important;font-family:var(--font)!important}
-#nightpass .ml-embedded .ml-form-checkboxRow .label-description,
-#nightpass .ml-embedded .ml-form-checkboxRow .label-description p,
-#nightpass .ml-embedded .ml-form-checkboxRow .description{color:var(--creme)!important;font-size:16px!important;line-height:1.5!important}
-#nightpass .ml-embedded .ml-form-checkboxRow input[type=checkbox]{accent-color:var(--pink)}
-#nightpass .ml-embedded .ml-form-checkboxRow .label-description::before,
-#nightpass .ml-embedded .custom-checkbox .custom-control-label::before{background:transparent!important;border:1px solid var(--pink)!important;border-radius:0!important}
-#nightpass .ml-embedded .ml-form-checkboxRow input[type=checkbox]:checked+.label-description::before,
-#nightpass .ml-embedded .custom-checkbox .custom-control-input:checked~.custom-control-label::before{background:var(--pink)!important;border-color:var(--pink)!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-checkboxRow label,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissionsOptionsCheckbox label{text-transform:none!important;letter-spacing:0!important;font-weight:400!important;font-size:16px!important;font-family:var(--font)!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-checkboxRow .label-description,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-checkboxRow .label-description p,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-checkboxRow .description{color:var(--creme)!important;font-size:16px!important;line-height:1.5!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-checkboxRow input[type=checkbox]{accent-color:var(--pink)}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-checkboxRow .label-description::before,
+#nightpass#nightpass#nightpass .ml-embedded .custom-checkbox .custom-control-label::before{background:transparent!important;border:1px solid var(--pink)!important;border-radius:0!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-checkboxRow input[type=checkbox]:checked+.label-description::before,
+#nightpass#nightpass#nightpass .ml-embedded .custom-checkbox .custom-control-input:checked~.custom-control-label::before{background:var(--pink)!important;border-color:var(--pink)!important}
+/* alle tekst in het form licht */
+#nightpass#nightpass#nightpass .ml-embedded p,
+#nightpass#nightpass#nightpass .ml-embedded span,
+#nightpass#nightpass#nightpass .ml-embedded label,
+#nightpass#nightpass#nightpass .ml-embedded .label-description,
+#nightpass#nightpass#nightpass .ml-embedded .label-description p{color:var(--creme)!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissions,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissionsContent p{color:var(--creme)!important;opacity:.7;font-size:13px!important;line-height:1.5!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissions a{color:var(--pink)!important}
 /* knop */
-#nightpass .ml-embedded .ml-form-embedSubmit{margin-top:8px!important}
-#nightpass .ml-embedded .ml-form-embedSubmit button,
-#nightpass .ml-embedded button.primary{background:var(--pink)!important;color:var(--nacht)!important;border:0!important;border-radius:0!important;padding:20px 32px!important;font-size:14px!important;font-weight:500!important;letter-spacing:.22em!important;text-transform:uppercase!important;width:100%!important;height:auto!important;line-height:1!important;box-shadow:0 10px 40px -10px var(--pink)!important;cursor:pointer;transition:transform .25s}
-#nightpass .ml-embedded .ml-form-embedSubmit button:hover{transform:translateY(-2px)}
-#nightpass .ml-embedded .ml-form-embedSubmitLoad::after{border-color:var(--nacht) var(--nacht) var(--nacht) transparent!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedSubmit{margin-top:8px!important}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedSubmit button,
+#nightpass#nightpass#nightpass .ml-embedded button.primary{background:var(--pink)!important;color:var(--nacht)!important;border:0!important;border-radius:0!important;padding:20px 32px!important;font-size:14px!important;font-weight:500!important;letter-spacing:.22em!important;text-transform:uppercase!important;width:100%!important;height:auto!important;line-height:1!important;box-shadow:0 10px 40px -10px var(--pink)!important;cursor:pointer;transition:transform .25s}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedSubmit button:hover{transform:translateY(-2px)}
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedSubmitLoad::after{border-color:var(--nacht) var(--nacht) var(--nacht) transparent!important}
 
 /* footer */
 .footer{padding:64px var(--gutter);display:grid;gap:10px;border-top:1px solid rgba(247,240,236,.1)}
