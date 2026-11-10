@@ -39,10 +39,11 @@ h2{font-size:clamp(44px,7vw,104px);margin-bottom:.4em}
 
 /* nacht in beweging */
 .night{padding:0 var(--gutter) clamp(80px,12vw,160px)}
-.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.strip figure{position:relative;aspect-ratio:9/16;overflow:hidden}
-.strip figure.film{box-shadow:0 0 0 1px rgba(238,146,194,.35),0 30px 90px -20px rgba(238,146,194,.5)}
-.strip figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 16px 12px;font:500 12px var(--title);letter-spacing:.24em;text-transform:uppercase;background:linear-gradient(transparent,rgba(22,12,34,.85))}
+.night .film{position:relative;aspect-ratio:16/9;max-width:100%;overflow:hidden;margin-bottom:12px;box-shadow:0 0 0 1px rgba(238,146,194,.35),0 30px 90px -20px rgba(238,146,194,.5)}
+.night .film figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 16px 12px;font:600 12px var(--title);letter-spacing:.24em;text-transform:uppercase;background:linear-gradient(transparent,rgba(22,12,34,.85))}
+.strip{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.strip figure{position:relative;aspect-ratio:16/10;max-width:100%;overflow:hidden}
+.strip figure:first-child img{object-position:50% 35%}
 
 /* story */
 .story{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,96px);align-items:center;padding:clamp(80px,12vw,160px) var(--gutter)}
@@ -120,6 +121,8 @@ h2{font-size:clamp(44px,7vw,104px);margin-bottom:.4em}
 #nightpass#nightpass#nightpass .ml-embedded .label-description p{color:var(--creme)!important}
 #nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissions,
 #nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissionsContent p{color:var(--creme)!important;opacity:.7;font-size:13px!important;line-height:1.5!important}
+#nightpass#nightpass#nightpass .ml-embedded .description,
+#nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissionsOptionsCheckbox .description{color:var(--creme)!important;opacity:.75;font-size:14px!important}
 #nightpass#nightpass#nightpass .ml-embedded .ml-form-embedPermissions a{color:var(--pink)!important}
 /* knop */
 #nightpass#nightpass#nightpass .ml-embedded .ml-form-embedSubmit{margin-top:8px!important}
@@ -139,8 +142,7 @@ h2{font-size:clamp(44px,7vw,104px);margin-bottom:.4em}
 @media (max-width:820px){
   .hero-bg img{object-position:62% 40%}
   .hero-bg::after{background:linear-gradient(0deg,var(--nacht) 10%,rgba(22,12,34,.6) 55%,rgba(22,12,34,.2))}
-  .strip{grid-template-columns:1fr 1fr}
-  .strip figure.film{grid-column:1/-1;grid-row:1;width:min(100%,360px);justify-self:center}
+  .strip figure{aspect-ratio:4/5}
   .story,.cta{grid-template-columns:1fr}
   .traits{grid-template-columns:1fr}
 }
